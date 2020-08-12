@@ -8,7 +8,7 @@ def join_nested_strings(src)
     column = 0
     while src[row].size > column do
       if src[row][column].class == String
-        output << (src[row][column])
+        newArray.push(src[row][column])
       end
       column+=1
   end
