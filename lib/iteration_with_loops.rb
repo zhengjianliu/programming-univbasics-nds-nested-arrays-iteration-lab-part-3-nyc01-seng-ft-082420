@@ -15,5 +15,4 @@ row_index = 0
     row_index += 1
   end
   output.join(' ')
-  output
 end
